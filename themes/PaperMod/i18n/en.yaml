@@ -1,0 +1,44 @@
+- id: prev_page
+  translation: "Prev"
+
+- id: next_page
+  translation: "Next"
+
+- id: read_time
+  translation:
+    one : "1 min"
+    other: "{{ .Count }} min"
+
+- id: words
+  translation:
+    one : "word"
+    other: "{{ .Count }} words"
+
+- id: toc
+  translation: "Table of Contents"
+
+- id: translations
+  translation: "Translations"
+
+- id: home
+  translation: "Home"
+
+- id: edit_post
+  translation: "Edit"
+
+- id: code_copy
+  translation: "copy"
+
+- id: code_copied
+  translation: "copied!"
+
+### Custom translations
+
+- id: join_newsletter
+  translation: "Join my newsletter"
+
+- id: join_newsletter_caption
+  translation: "From time to time I send messages to my subscribers. If you like what I do, you're more than welcome to subscribe \U0001F4E8"
+
+- id: submit
+  translation: "Submit"

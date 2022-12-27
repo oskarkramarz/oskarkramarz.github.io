@@ -1,0 +1,13 @@
+<div class="newsletter-form">
+    <h2>{{ i18n "join_newsletter" }}</h2>
+    <p>{{ i18n "join_newsletter_caption" }}</p>
+    <form action="https://sendy.avirago.pl/subscribe" method="POST" accept-charset="utf-8">
+        <input type="email" name="email" id="email" placeholder="What's your email address?"/><br/><div style="display:none;">
+        <label for="hp">HP</label><br/>
+        <input type="text" name="hp" id="hp"/>
+        </div>
+        <input type="hidden" name="list" value="ohHHuK7uXGYU78927f2s8763Dg"/>
+        <input type="hidden" name="subform" value="yes"/>
+        <input type="submit" name="submit" value="{{ i18n "submit" }}" id="submit"/>
+    </form>
+</div>
