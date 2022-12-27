@@ -89,9 +89,6 @@
 {{- end }}
 {{- end -}}
 
-<!-- Plausible -->
-<script defer data-domain="oskarkramarz.com" src="https://plausible.io/js/script.js"></script>
-
 {{- /* Highlight.js */}}
 {{- $isHLJSdisabled := (site.Params.assets.disableHLJS | default .Params.disableHLJS ) }}
 {{- if (and (eq .Kind "page") (ne .Layout "archives") (ne .Layout "search") (not $isHLJSdisabled)) }}
@@ -104,6 +101,9 @@
 <script defer crossorigin="anonymous" src="{{ $highlight.RelPermalink }}" onload="hljs.initHighlightingOnLoad();"></script>
 {{- end }}
 {{- end }}
+
+<!-- Plausible -->
+<script defer data-domain="oskarkramarz.com" src="https://plausible.io/js/script.tagged-events.outbound-links.js"></script>
 
 {{- /* Favicons */}}
 <link rel="icon" href="{{ site.Params.assets.favicon | default "favicon.ico" | absURL }}">
