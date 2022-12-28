@@ -1,4 +1,4 @@
-baseURL: "https://oskarkramarz.github.io/"
+baseURL: "https://oskarkramarz.com"
 title: Oskar Kramarz
 paginate: 5
 theme: PaperMod
@@ -46,15 +46,15 @@ params:
     # disableHLJS: true # To disable highlight.js
     # disableFingerprinting: true
     favicon: "/oskarkramarz-logo.png"
-    # favicon16x16: "<link / abs url>"
-    # favicon32x32: "<link / abs url>"
-    # apple_touch_icon: "<link / abs url>"
-    # safari_pinned_tab: "<link / abs url>"
+    favicon16x16: "/oskarkramarz-favicon.ico"
+    favicon32x32: "/oskarkramarz-favicon.ico"
+    apple_touch_icon: "/oskarkramarz-logo.png"
+    safari_pinned_tab: "/oskarkramarz-logo.png"
 
   label:
     text: "Oskar Kramarz"
     icon: /oskarkramarz-logo.png
-    iconHeight: 28
+    iconHeight: 32
 
   # home-info mode
   homeInfoParams:
