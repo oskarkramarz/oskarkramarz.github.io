@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://oskarkramarz.github.io/sitemap.xml
+Sitemap: https://oskarkramarz.com/sitemap.xml
